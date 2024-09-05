@@ -1,0 +1,18 @@
+﻿@page "/weather"
+@using BlazorFluentUILoadTest.Components.Layout
+@using Microsoft.FluentUI.AspNetCore.Components
+@attribute [StreamRendering]
+
+<PageTitle>Weather</PageTitle>
+
+<FluentLabel Typo="Typography.PaneHeader">
+    Weather
+</FluentLabel>
+
+<p>This component demonstrates showing data.</p>
+
+<WeatherFrame />
+
+@code {
+    
+}
